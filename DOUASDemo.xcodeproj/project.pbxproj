@@ -25,6 +25,7 @@
 		0A0F9BF51C2007DF004DE6C1 /* DOUMPMediaLibraryAssetLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F9BE11C2007DF004DE6C1 /* DOUMPMediaLibraryAssetLoader.m */; };
 		0A0F9BF61C2007DF004DE6C1 /* DOUSimpleHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F9BE31C2007DF004DE6C1 /* DOUSimpleHTTPRequest.m */; };
 		0A0F9BF71C2007DF004DE6C1 /* NSData+DOUMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F9BE51C2007DF004DE6C1 /* NSData+DOUMappedFile.m */; };
+		BC1FFE251C33C71F0059E452 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1FFE241C33C71F0059E452 /* ViewController.m */; };
 		D400E947171BF13F00BE7F37 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D400E946171BF13F00BE7F37 /* Accelerate.framework */; };
 		D42DA81017865EE4007276E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42DA80F17865EE4007276E5 /* QuartzCore.framework */; };
 		D42DA81217865EE9007276E5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42DA81117865EE9007276E5 /* OpenGLES.framework */; };
@@ -90,6 +91,8 @@
 		0A0F9BE31C2007DF004DE6C1 /* DOUSimpleHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUSimpleHTTPRequest.m; sourceTree = "<group>"; };
 		0A0F9BE41C2007DF004DE6C1 /* NSData+DOUMappedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DOUMappedFile.h"; sourceTree = "<group>"; };
 		0A0F9BE51C2007DF004DE6C1 /* NSData+DOUMappedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DOUMappedFile.m"; sourceTree = "<group>"; };
+		BC1FFE231C33C71F0059E452 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC1FFE241C33C71F0059E452 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D400E946171BF13F00BE7F37 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D42DA80F17865EE4007276E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D42DA81117865EE9007276E5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -243,6 +246,8 @@
 				D43ACD731738B47B00E6A571 /* DOUAudioStreamer */,
 				D4C38931171B9D87009D6124 /* AppDelegate.h */,
 				D4C38932171B9D87009D6124 /* AppDelegate.m */,
+				BC1FFE231C33C71F0059E452 /* ViewController.h */,
+				BC1FFE241C33C71F0059E452 /* ViewController.m */,
 				D4F5B28B18A5F0C70063865C /* Track.h */,
 				D4F5B28C18A5F0C70063865C /* Track.m */,
 				D4F5B28E18A5F1B70063865C /* Track+Provider.h */,
@@ -364,6 +369,7 @@
 				D4F5B29318A5F3030063865C /* MainViewController.m in Sources */,
 				D4F5B29018A5F1B70063865C /* Track+Provider.m in Sources */,
 				D4F5B28D18A5F0C70063865C /* Track.m in Sources */,
+				BC1FFE251C33C71F0059E452 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
