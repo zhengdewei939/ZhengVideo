@@ -26,7 +26,7 @@
   [DOUAudioStreamer setOptions:[DOUAudioStreamer options] | DOUAudioStreamerRequireSHA256];
 
   [self setWindow:[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]];
-
+//不不不不不不不不不不不不不不不不不不不不不不
   MainViewController *mainViewController = [[MainViewController alloc] initWithStyle:UITableViewStylePlain];
   UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
   [[self window] setRootViewController:navigationController];
